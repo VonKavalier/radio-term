@@ -15,3 +15,7 @@ Little bash script that allows to keep a list of online radio and listen to them
 
 ### List radios and commands :
 `$ ./radio.sh`
+
+## Additional
+Yeah, it's pretty brutal code, I made it quickly because I didn't want a full GUI for something that doesn't really need it.
+If you want to contribute any help will be appreciated :)
