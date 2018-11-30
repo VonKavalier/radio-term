@@ -7,11 +7,11 @@ Little bash script that allows to keep a list of online radio and listen to them
 3. Set the environment variable `$RADIOS_LIST` to the path of your `radios.txt` file (make sure it's full path, no `~` allowed)
 
 ## How to use
-- Add a new radio :
+### Add a new radio :
 `$ ./radio.sh radio_name https://radio-url.com`
 
-- Listen to a radio :
+### Listen to a radio :
 `$ ./radio.sh radio_name`
 
-- List radios and commands :
+### List radios and commands :
 `$ ./radio.sh`
