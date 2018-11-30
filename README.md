@@ -9,6 +9,8 @@ Little bash script that allows to keep a list of online radio and listen to them
 ## How to use
 ### Add a new radio :
 `$ ./radio.sh radio_name https://radio-url.com`
+**Warning** : The URL must be a direct stream link like http://ice1.somafm.com/7soul-128-mp3
+Otherwise, mpv will throw an error.
 
 ### Listen to a radio :
 `$ ./radio.sh radio_name`
