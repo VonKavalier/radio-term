@@ -10,10 +10,10 @@ fi
 
 if [ -n "$2" ]
 then
-    $(echo "$1 : $2" >> radios.txt)
+    $(echo "$1 : $2" >> "$RADIOS_LIST")
     exit 1
 fi
 
-url=$(grep "$1" radios.txt | sed 's/^.*: //')
+url=$(grep "$1" "$RADIOS_LIST" | sed 's/^.*: //')
 
 mpv $url
