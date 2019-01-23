@@ -1,3 +1,5 @@
+:warning: This repository is not maintained anymore ! Please consider the new version : https://github.com/VonKavalier/radioshell !! 
+
 # radio-term
 Little bash script that allows to keep a list of online radio and listen to them in the terminal 📻
 
